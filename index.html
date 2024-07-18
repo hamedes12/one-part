@@ -5,31 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my project</title>
     <link rel="stylesheet" href="assets/materialize/css/materialize.min.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <nav>
-        <div class="nav-wrapper">
-          <a href="#!" class="brand-logo">Future</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">view_headline</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">AboutUS</a></li>
-            <li><a href="badges.html">Home</a></li>
-            <li><a href="collapsible.html">Option</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
-          </ul>
+    <!-- navbar section start ....................................-->
+    <nav class="white z-depth-0">
+      <div class="nav-wrapper">
+        <a href="#!" class="blue-text">Future</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text"
+          ><i class="material-icons">view_headline</i></a
+        >
+        <ul class="right hide-on-med-and-down">
+          <li><a href="sass.html">AboutUS</a></li>
+          <li><a href="badges.html">Home</a></li>
+          <li><a href="collapsible.html">Option</a></li>
+          <li><a href="mobile.html">Mobile</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="/assets/images/wer.jpg" class="w-100" />
+          </div>
+          <a href="#user"
+            ><img class="circle" src="/assets/images/arman.jpg"
+          /></a>
+          <a href="#name"><span class="white-text name">Arman Azamiy</span></a>
+          <a href="#email"
+            ><span class="white-text email">Arman@gmail.com</span></a
+          >
         </div>
-      </nav>
-    
-      <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">AboutUS</a></li>
-        <li><a href="badges.html">Home</a></li>
-        <li><a href="collapsible.html">Option</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
-      </ul>
+      </li>
+      <li>
+        <a href="#!"
+          ><i class="material-icons">blur_linear</i>insert link for your add</a
+        >
+      </li>
+      <li>
+        <a href="#!"
+          ><i class="material-icons">blur_linear</i>insert link for your link</a
+        >
+      </li>
+      <li><a href="#!">Second Link</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="subheader">Subheader</a></li>
+      <li><a class="waves-effect" href="#!">tradingview</a></li>
+      <li><a class="waves-effect" href="#!">Home</a></li>
+      <li><a class="waves-effect" href="#!">Option</a></li>
+      <li><a class="waves-effect" href="#!">Mobile</a></li>
+    </ul>
+    <!-- navbar section end ..................................-->
+
+    <!-- home section start ..................................-->
 
 
+
+
+    <!-- home section end ..................................-->
     <script src="assets/materialize/js/materialize.min.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
