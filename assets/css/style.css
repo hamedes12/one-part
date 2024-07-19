@@ -2,4 +2,10 @@
     .top-navbar {
         box-shadow: 0 0 50px gray !important;
     }
+
+    #top-action-section{
+        display: flex !important;
+        align-items: center !important;
+
+    }
 }
