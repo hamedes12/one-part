@@ -9,3 +9,13 @@
 
     }
 }
+
+
+
+.user-list-item.active .user-list-arrow-icon {
+    transform: rotate(180deg);
+}
+
+.user-list-item.active {
+    background-color: rgba(235, 235, 235, 0.87);
+}
