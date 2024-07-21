@@ -25,5 +25,30 @@ table.highlight > tbody > tr:hover {
   }
 
   .container {
+    width: 100% !important;
+  }
+
+  .add-user-model-back {
+    position: fixed;
     width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+
+  .add-user-model {
+    position: fixed;
+    height: 70vh;
+    background-color: white;
+    bottom: 0px;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    bottom: -70vh;
+  }
+  .add-user-model.show {
+    box-shadow: 0 0 10px rgba(100, 104, 109, 0.233);
+    bottom: 0;
   }
