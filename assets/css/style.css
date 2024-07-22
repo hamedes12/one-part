@@ -1,3 +1,7 @@
+* {
+  direction: rtl;
+}
+
 @media(min-width:600px){
     .top-navbar {
         box-shadow: 0 0 50px gray !important;
@@ -51,4 +55,8 @@ table.highlight > tbody > tr:hover {
   .add-user-model.show {
     box-shadow: 0 0 10px rgba(100, 104, 109, 0.233);
     bottom: 0;
+  }
+
+  .sidenav-link-icon {
+    margin: 0 0 0 25px !important;
   }
